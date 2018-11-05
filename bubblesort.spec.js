@@ -12,13 +12,13 @@ describe('Bubble Sort', function(){
     expect( bubbleSort([3, 2, 1]) ).toEqual( [1, 2, 3] );
   });
 
-  beforeAll(function () {
-    spyOn(obj, 'swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
-  });
-  it('sorting this array took this many swaps', function () {
-    obj.swap();
-    expect(obj.swap.calls.count()).toEqual(100);
-  });
+  // beforeAll(function () {
+  //   spyOn(obj, 'swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
+  // });
+  // it('sorting this array took this many swaps', function () {
+  //   obj.swap();
+  //   expect(obj.swap.calls.count()).toEqual(100);
+  // });
 
 
 });
